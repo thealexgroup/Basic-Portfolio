@@ -1,0 +1,148 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	 width: 960px;
+	 margin: 0 0 80px;
+	 padding: 0;
+}
+
+
+header {
+	background: #cccccc;
+	border-color: black;
+	font-family: Georgia, Times, "Times New Roman", serif;	
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	background: #4aaaa5; 
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 100px;
+	float: left;
+}
+
+
+nav {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: left;
+	color: #afaeaf;
+	background-color: white;
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 300px;
+}
+
+a:link {
+    color: #afaeaf;
+     text-decoration: none;
+}
+
+a:visited {
+    color: #afaeaf;
+     text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+     text-decoration: underline;
+}
+main {
+	clear: both;
+	border-top: solid 2px #dddddd;
+	background-image: url("skyscraper.png");
+	background-repeat: repeat;
+	padding: 50px 50px 50px 50px;
+	overflow: hidden;
+}
+
+
+
+.container1 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	background-color: #ffffff;
+	padding: 25px 25px 25px 25px;
+	width: 400px;
+	margin-left: 50px;
+	color: #777777;
+	line-height: 200%;
+	float: left;
+}
+
+
+
+.container2 {
+	float: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+	width: 270px;
+	margin-left: 20px;
+} 
+
+
+footer {
+	clear: both;
+	background-color: #666666;
+	color: #bdb1a0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 12px;
+	border-top: solid 10px;
+	border-color: #4aaaa5; 
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	}
+
+
+h2 {
+	color: #4aaaa5;
+	font-family: Georgia, Times, "Times New Roman", serif;	
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: Georgia, Times, "Times New Roman", serif;	
+	text-align: center;
+}
+
+.hr1 {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:  #dddddd;   
+}
+
+.hr2{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:  #dddddd;   
+}
+
+.img1 {
+	float: left;
+	padding-right: 10px; 
+}
+
+
+.img2 {
+	margin-left: 20px;
+	border: 0;
+}
